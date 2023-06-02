@@ -187,9 +187,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 545,
-          "top": 314,
-          "zIndex": 213,
+          "left": 272,
+          "top": 274,
+          "zIndex": 218,
           "widthName": 90.8291015625,
           "widthComment": 60,
           "color": "#33136D"
@@ -250,9 +250,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 548,
-          "top": 645,
-          "zIndex": 214,
+          "left": 272,
+          "top": 571,
+          "zIndex": 219,
           "widthName": 85.07177734375,
           "widthComment": 60,
           "color": "#00FFD0"
@@ -313,15 +313,30 @@
         ],
         "ui": {
           "active": false,
-          "left": 546,
-          "top": 75,
-          "zIndex": 216,
+          "left": 272,
+          "top": 78,
+          "zIndex": 217,
           "widthName": 60,
           "widthComment": 60,
           "color": "#F44336"
         },
         "visible": true,
         "id": "1a43122d-7aed-4364-b1cb-6607a1964eff"
+      },
+      {
+        "name": "",
+        "comment": "",
+        "columns": [],
+        "ui": {
+          "active": false,
+          "left": 725,
+          "top": 235,
+          "zIndex": 221,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "072ad7e2-5d29-4bac-a6ba-53af52e28400"
       }
     ],
     "indexes": []
@@ -340,8 +355,8 @@
           "columnIds": [
             "d6076bb3-d3d3-40e7-a030-4ee322171214"
           ],
-          "x": 733.58935546875,
-          "y": 506,
+          "x": 460.58935546875,
+          "y": 466,
           "direction": "bottom"
         },
         "end": {
@@ -349,8 +364,8 @@
           "columnIds": [
             "1bd98ac5-34d2-4c83-a047-ffb865be7970"
           ],
-          "x": 736.58935546875,
-          "y": 645,
+          "x": 460.58935546875,
+          "y": 571,
           "direction": "top"
         },
         "constraintName": "fk_mem_inform_to_mem_hobby",
@@ -366,8 +381,8 @@
           "columnIds": [
             "d6076bb3-d3d3-40e7-a030-4ee322171214"
           ],
-          "x": 733.58935546875,
-          "y": 314,
+          "x": 460.58935546875,
+          "y": 274,
           "direction": "top"
         },
         "end": {
@@ -375,8 +390,8 @@
           "columnIds": [
             "ad9762d3-1ca5-4225-9582-a9c7762953ef"
           ],
-          "x": 734.58935546875,
-          "y": 185,
+          "x": 460.58935546875,
+          "y": 188,
           "direction": "bottom"
         },
         "constraintName": "fk_mem_inform_to_login",
