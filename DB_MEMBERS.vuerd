@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": -6,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -187,9 +187,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 56,
-          "top": 0,
-          "zIndex": 172,
+          "left": 545,
+          "top": 314,
+          "zIndex": 213,
           "widthName": 90.8291015625,
           "widthComment": 60,
           "color": "#33136D"
@@ -250,9 +250,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 56,
-          "top": 294,
-          "zIndex": 174,
+          "left": 548,
+          "top": 645,
+          "zIndex": 214,
           "widthName": 85.07177734375,
           "widthComment": 60,
           "color": "#00FFD0"
@@ -261,16 +261,64 @@
         "id": "2ef604ee-86c7-420e-9571-89aa921f9c82"
       },
       {
-        "name": "",
-        "comment": "",
-        "columns": [],
+        "name": "LOGIN",
+        "comment": "로그인",
+        "columns": [
+          {
+            "name": "EMAIL",
+            "comment": "이메일",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "efdc56cd-9359-4171-8992-c9675a707bb4"
+          },
+          {
+            "name": "UNIQUE_ID",
+            "comment": "UNIQUE_ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 72.7890625,
+              "widthComment": 72.7890625,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "ad9762d3-1ca5-4225-9582-a9c7762953ef"
+          }
+        ],
         "ui": {
           "active": false,
-          "left": 49,
-          "top": 492,
-          "zIndex": 177,
+          "left": 546,
+          "top": 75,
+          "zIndex": 216,
           "widthName": 60,
-          "widthComment": 60
+          "widthComment": 60,
+          "color": "#F44336"
         },
         "visible": true,
         "id": "1a43122d-7aed-4364-b1cb-6607a1964eff"
@@ -292,8 +340,8 @@
           "columnIds": [
             "d6076bb3-d3d3-40e7-a030-4ee322171214"
           ],
-          "x": 244.58935546875,
-          "y": 192,
+          "x": 733.58935546875,
+          "y": 506,
           "direction": "bottom"
         },
         "end": {
@@ -301,13 +349,39 @@
           "columnIds": [
             "1bd98ac5-34d2-4c83-a047-ffb865be7970"
           ],
-          "x": 244.58935546875,
-          "y": 294,
+          "x": 736.58935546875,
+          "y": 645,
           "direction": "top"
         },
         "constraintName": "fk_mem_inform_to_mem_hobby",
         "visible": true,
         "id": "a0f8f4df-08c8-44ca-bd9b-948d7a91c0d3"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "98810f34-7bbd-4f98-9d9f-d96b7b1e10ce",
+          "columnIds": [
+            "d6076bb3-d3d3-40e7-a030-4ee322171214"
+          ],
+          "x": 733.58935546875,
+          "y": 314,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "1a43122d-7aed-4364-b1cb-6607a1964eff",
+          "columnIds": [
+            "ad9762d3-1ca5-4225-9582-a9c7762953ef"
+          ],
+          "x": 734.58935546875,
+          "y": 185,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_mem_inform_to_login",
+        "visible": true,
+        "id": "2c6b3f07-b020-4d3b-9773-c383a237ac31"
       }
     ]
   }
