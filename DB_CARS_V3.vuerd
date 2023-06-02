@@ -1,0 +1,467 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "DB_CARS_V3",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "COMPANY",
+        "comment": "회사이름",
+        "columns": [
+          {
+            "name": "COMPANY",
+            "comment": "회사이름",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 66.76513671875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "9ac03ce4-491b-406c-9cdc-2d800312f24c"
+          },
+          {
+            "name": "COMPANY_ID",
+            "comment": "회사이름_ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 86.9951171875,
+              "widthComment": 74.22998046875,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "8753e81d-a558-49b8-bba8-fe39daf1a4c1"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 640,
+          "top": 16,
+          "zIndex": 50,
+          "widthName": 66.76513671875,
+          "widthComment": 60,
+          "color": "#0028FF"
+        },
+        "visible": true,
+        "id": "78242849-02d2-4fe6-878e-7a5aa9b3b594"
+      },
+      {
+        "name": "MOTOR",
+        "comment": "자동차",
+        "columns": [
+          {
+            "name": "MOTOR",
+            "comment": "자동차명",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "39386471-2e08-47e0-80a6-d9dc81fed9f3"
+          },
+          {
+            "name": "MOTOR_ID",
+            "comment": "자동차_ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 70.376953125,
+              "widthComment": 61.22998046875,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "1e156a87-eaa7-4bc0-af81-26cda9c0cd46"
+          },
+          {
+            "name": "OPTION_ID",
+            "comment": "옵션_ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 72.0654296875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "f962fb21-a116-4619-b02d-41cf97b3b16c"
+          },
+          {
+            "name": "COMPANY_ID",
+            "comment": "회사이름_ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 86.9951171875,
+              "widthComment": 74.22998046875,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "05b3b1fb-d42e-47c8-ad57-2a58ec601fcc"
+          },
+          {
+            "name": "YEARS_ID",
+            "comment": "연식_ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 66.3017578125,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "972a0a8f-0491-4d8d-a4b3-27a0451e4f93"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 640,
+          "top": 209,
+          "zIndex": 62,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": "#00D9FF"
+        },
+        "visible": true,
+        "id": "860e6558-ab7e-48d3-bb7f-b0416ffd2abf"
+      },
+      {
+        "name": "OPTION",
+        "comment": "옵션",
+        "columns": [
+          {
+            "name": "OPTION",
+            "comment": "옵션",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "a8eb287d-6bf5-4c26-ae03-bcdee4a0dd45"
+          },
+          {
+            "name": "OPTION_ID",
+            "comment": "옵션_ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 72.0654296875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "96c00485-a7a0-4ab6-8693-55e1031f39f8"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 654,
+          "top": 472,
+          "zIndex": 63,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": "#00FF2F"
+        },
+        "visible": true,
+        "id": "dfa7b721-a78e-4655-ae5e-c5c6a3410081"
+      },
+      {
+        "name": "YEARS",
+        "comment": "연식",
+        "columns": [
+          {
+            "name": "YEARS",
+            "comment": "연식",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "58c552af-db4d-4343-9704-d00e1105d35c"
+          },
+          {
+            "name": "YEARS_ID",
+            "comment": "연식_ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 66.3017578125,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "bf0e7b89-5575-4bf7-a411-b34186bfbe30"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 201,
+          "top": 446,
+          "zIndex": 60,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": "#FF00F6"
+        },
+        "visible": true,
+        "id": "e3f4ea51-408f-46b6-9577-9b823cb743c2"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": [
+      {
+        "value": "chatGPT한테 새로 물어봄_10개 항목 및 옵션에만 중복 추가\n",
+        "ui": {
+          "active": false,
+          "left": 27,
+          "top": 10,
+          "zIndex": 10,
+          "width": 169,
+          "height": 100
+        },
+        "id": "89ec1ca7-81a0-462c-8e42-e36788f9c0f5"
+      }
+    ]
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "dfa7b721-a78e-4655-ae5e-c5c6a3410081",
+          "columnIds": [
+            "96c00485-a7a0-4ab6-8693-55e1031f39f8"
+          ],
+          "x": 835.8330078125,
+          "y": 472,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "860e6558-ab7e-48d3-bb7f-b0416ffd2abf",
+          "columnIds": [
+            "f962fb21-a116-4619-b02d-41cf97b3b16c"
+          ],
+          "x": 836.412841796875,
+          "y": 380.5,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_option_to_motor",
+        "visible": true,
+        "id": "729eaaf6-53ef-40c4-aa13-8a00be0411f2"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "78242849-02d2-4fe6-878e-7a5aa9b3b594",
+          "columnIds": [
+            "8753e81d-a558-49b8-bba8-fe39daf1a4c1"
+          ],
+          "x": 836.412841796875,
+          "y": 126,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "860e6558-ab7e-48d3-bb7f-b0416ffd2abf",
+          "columnIds": [
+            "05b3b1fb-d42e-47c8-ad57-2a58ec601fcc"
+          ],
+          "x": 836.412841796875,
+          "y": 209,
+          "direction": "top"
+        },
+        "constraintName": "fk_company_to_motor",
+        "visible": true,
+        "id": "63a266e7-af93-498f-87fb-67b85ff00ddf"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "e3f4ea51-408f-46b6-9577-9b823cb743c2",
+          "columnIds": [
+            "bf0e7b89-5575-4bf7-a411-b34186bfbe30"
+          ],
+          "x": 558.90234375,
+          "y": 501,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "860e6558-ab7e-48d3-bb7f-b0416ffd2abf",
+          "columnIds": [
+            "972a0a8f-0491-4d8d-a4b3-27a0451e4f93"
+          ],
+          "x": 640,
+          "y": 294.75,
+          "direction": "left"
+        },
+        "constraintName": "fk_years_to_motor",
+        "visible": true,
+        "id": "12c29216-3189-4345-863a-282df20c95da"
+      }
+    ]
+  }
+}
