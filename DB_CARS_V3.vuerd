@@ -97,7 +97,7 @@
           "active": false,
           "left": 640,
           "top": 16,
-          "zIndex": 50,
+          "zIndex": 2,
           "widthName": 66.76513671875,
           "widthComment": 60,
           "color": "#0028FF"
@@ -229,7 +229,7 @@
           "active": false,
           "left": 640,
           "top": 209,
-          "zIndex": 62,
+          "zIndex": 4,
           "widthName": 60,
           "widthComment": 60,
           "color": "#00D9FF"
@@ -292,7 +292,7 @@
           "active": false,
           "left": 654,
           "top": 472,
-          "zIndex": 63,
+          "zIndex": 5,
           "widthName": 60,
           "widthComment": 60,
           "color": "#00FF2F"
@@ -355,7 +355,7 @@
           "active": false,
           "left": 201,
           "top": 446,
-          "zIndex": 60,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60,
           "color": "#FF00F6"
@@ -374,7 +374,7 @@
           "active": false,
           "left": 27,
           "top": 10,
-          "zIndex": 10,
+          "zIndex": 1,
           "width": 169,
           "height": 100
         },
