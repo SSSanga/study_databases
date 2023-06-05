@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -478,
-    "scrollLeft": -298,
+    "scrollTop": -560,
+    "scrollLeft": -294,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -49,13 +49,13 @@
           {
             "name": "GENDER",
             "comment": "성별",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -64,7 +64,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "9c4b261f-aa77-4252-9c66-bd1f1c1128f5"
@@ -72,7 +72,7 @@
           {
             "name": "GENDER_ID",
             "comment": "성별_ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -87,7 +87,7 @@
               "pfk": false,
               "widthName": 77.84814453125,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "40d38656-5d5c-47c1-87a2-bca179b61151"
@@ -97,7 +97,7 @@
           "active": false,
           "left": 1231,
           "top": 618,
-          "zIndex": 198,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60,
           "color": "#00FF39"
@@ -112,7 +112,7 @@
           {
             "name": "PATIENT_ID",
             "comment": "환자_ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -127,7 +127,7 @@
               "pfk": false,
               "widthName": 75.19482421875,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "37667b1b-4631-4174-9820-a1746e75284d"
@@ -135,13 +135,13 @@
           {
             "name": "RESULTS",
             "comment": "결과",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -150,15 +150,15 @@
               "pfk": false,
               "widthName": 60.9951171875,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "8ac4eb1d-db8c-4143-8da5-9c8f8a771aea"
           },
           {
-            "name": "RESULT_ID",
+            "name": "RESULTS_ID",
             "comment": "결과_ID",
-            "dataType": "VARCAHR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -171,17 +171,17 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 72.55419921875,
+              "widthName": 81.22509765625,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "4bee867c-0014-4daf-8c1a-7608185a44ff"
           },
           {
-            "name": "RE-EXAM_ID",
+            "name": "RE_EXAM_ID",
             "comment": "환자 재검진_ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -194,9 +194,9 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 81.4599609375,
+              "widthName": 84.36083984375,
               "widthComment": 90.841796875,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "6c3c2f2b-61c5-4417-b8e3-6090ff2c763f"
@@ -204,7 +204,7 @@
           {
             "name": "ADVICE_LS_ID",
             "comment": "유지 방안 항목_ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -219,7 +219,7 @@
               "pfk": false,
               "widthName": 93.76171875,
               "widthComment": 107.45361328125,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "acb7ef15-dbca-419e-8571-ea0abe5ba703"
@@ -229,7 +229,7 @@
           "active": false,
           "left": 685.8888,
           "top": 880.3339,
-          "zIndex": 203,
+          "zIndex": 8,
           "widthName": 60.9951171875,
           "widthComment": 60,
           "color": "#FF0000"
@@ -244,13 +244,13 @@
           {
             "name": "PATIENT",
             "comment": "환자이름",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -259,7 +259,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "b1888f82-76d6-4fab-b639-c33e71bdf44f"
@@ -273,7 +273,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -296,7 +296,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -313,13 +313,13 @@
           {
             "name": "PRESSURE",
             "comment": "혈압",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -328,7 +328,7 @@
               "pfk": false,
               "widthName": 73.51904296875,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "5af3c027-fbc6-4dda-bae6-58114ad0934e"
@@ -342,7 +342,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -359,7 +359,7 @@
           {
             "name": "GENDER_ID",
             "comment": "성별_ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -374,7 +374,7 @@
               "pfk": false,
               "widthName": 77.84814453125,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "6b9bdc60-b5ca-4adb-853b-83327096fe33"
@@ -382,13 +382,13 @@
           {
             "name": "PATIENT_ID",
             "comment": "환자_ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": true,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -397,7 +397,7 @@
               "pfk": false,
               "widthName": 75.19482421875,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "5a5d5cc4-903a-4b4a-bd1a-9aa822d6ff4f"
@@ -407,7 +407,7 @@
           "active": false,
           "left": 709,
           "top": 569,
-          "zIndex": 201,
+          "zIndex": 5,
           "widthName": 63.6357421875,
           "widthComment": 60,
           "color": "#2500FF"
@@ -416,28 +416,28 @@
         "id": "7b80f70a-7dab-4658-ae89-60105831ee14"
       },
       {
-        "name": "PATIENTS-RE-EXAM",
+        "name": "PATIENTS_RE_EXAM",
         "comment": "환자 재검진..이 TABLE은 필요 없을지도. ",
         "columns": [
           {
-            "name": "RE-EXAM",
+            "name": "RE_EXAM",
             "comment": "환자 재검진",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 61.22998046875,
+              "widthName": 64.130859375,
               "widthComment": 70.61181640625,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "ee08e0b8-bb80-4b54-b0ab-2ee0bbc5358d"
@@ -445,7 +445,7 @@
           {
             "name": "EXLIST_ID",
             "comment": "재검진 항목_ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -460,15 +460,15 @@
               "pfk": false,
               "widthName": 67.025390625,
               "widthComment": 90.841796875,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "fe0e2a0d-2a7e-477e-abee-3d163b0a7667"
           },
           {
-            "name": "RE-EXAM_ID",
+            "name": "RE_EXAM_ID",
             "comment": "환자 재검진_ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -481,9 +481,9 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 81.4599609375,
+              "widthName": 84.36083984375,
               "widthComment": 90.841796875,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "36b2314d-32f8-482a-b94a-edc8fdbce1fe"
@@ -491,10 +491,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 1467.4446,
-          "top": 859.2219,
-          "zIndex": 207,
-          "widthName": 127.19482421875,
+          "left": 1468.4446,
+          "top": 858.2219,
+          "zIndex": 15,
+          "widthName": 132.99658203125,
           "widthComment": 120,
           "color": "#FF00EC60"
         },
@@ -502,19 +502,19 @@
         "id": "1d522cea-1a13-4155-953e-575e2b6cff0c"
       },
       {
-        "name": "EXAM-LIST",
+        "name": "EXAM_LIST",
         "comment": "재검진 항목",
         "columns": [
           {
             "name": "EXLIST",
             "comment": "재검진 항목",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -523,7 +523,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 70.61181640625,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "450377b7-a9e5-4fea-aeda-64b4c17045e2"
@@ -531,7 +531,7 @@
           {
             "name": "EXLIST_ID",
             "comment": "재검진 항목_ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -546,7 +546,7 @@
               "pfk": false,
               "widthName": 67.025390625,
               "widthComment": 90.841796875,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "df34f1c1-ccd5-4137-9d1c-e20518bfa2c7"
@@ -556,8 +556,8 @@
           "active": false,
           "left": 1474.5555,
           "top": 1130.3337,
-          "zIndex": 208,
-          "widthName": 70.62451171875,
+          "zIndex": 6,
+          "widthName": 73.525390625,
           "widthComment": 70.61181640625,
           "color": "#FFC107"
         },
@@ -571,13 +571,13 @@
           {
             "name": "ADVICE_LS",
             "comment": "유지 방안 항목",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -586,7 +586,7 @@
               "pfk": false,
               "widthName": 73.53173828125,
               "widthComment": 87.2236328125,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "81e03c35-a4a6-488b-a3a7-27567f064878"
@@ -594,7 +594,7 @@
           {
             "name": "ADVICE_LS_ID",
             "comment": "유지 방안 항목_ID",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -609,7 +609,7 @@
               "pfk": false,
               "widthName": 93.76171875,
               "widthComment": 107.45361328125,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "be9a7a1e-8bbc-4f83-8c86-abb241aeefdc"
@@ -619,7 +619,7 @@
           "active": false,
           "left": 685.1118,
           "top": 1158.889,
-          "zIndex": 196,
+          "zIndex": 4,
           "widthName": 60,
           "widthComment": 60,
           "color": "#F9FF00"
@@ -638,7 +638,7 @@
           "active": false,
           "left": 691,
           "top": 374,
-          "zIndex": 61,
+          "zIndex": 1,
           "width": 403,
           "height": 101
         },
@@ -650,7 +650,7 @@
           "active": false,
           "left": 1213,
           "top": 896,
-          "zIndex": 213,
+          "zIndex": 2,
           "width": 127,
           "height": 100
         },
@@ -669,7 +669,7 @@
           "columnIds": [
             "be9a7a1e-8bbc-4f83-8c86-abb241aeefdc"
           ],
-          "x": 901.519758984375,
+          "x": 913.078841015625,
           "y": 1158.889,
           "direction": "top"
         },
@@ -678,7 +678,7 @@
           "columnIds": [
             "acb7ef15-dbca-419e-8571-ea0abe5ba703"
           ],
-          "x": 902.296758984375,
+          "x": 913.855841015625,
           "y": 1051.8339,
           "direction": "bottom"
         },
@@ -695,7 +695,7 @@
           "columnIds": [
             "df34f1c1-ccd5-4137-9d1c-e20518bfa2c7"
           ],
-          "x": 1669.28938671875,
+          "x": 1680.84846875,
           "y": 1130.3337,
           "direction": "top"
         },
@@ -704,8 +704,8 @@
           "columnIds": [
             "fe0e2a0d-2a7e-477e-abee-3d163b0a7667"
           ],
-          "x": 1669.395771875,
-          "y": 989.7219,
+          "x": 1683.405293359375,
+          "y": 988.7219,
           "direction": "bottom"
         },
         "constraintName": "fk_exam-list_to_patients-re-exam",
@@ -721,8 +721,8 @@
           "columnIds": [
             "36b2314d-32f8-482a-b94a-edc8fdbce1fe"
           ],
-          "x": 1467.4446,
-          "y": 924.4719,
+          "x": 1468.4446,
+          "y": 923.4719,
           "direction": "left"
         },
         "end": {
@@ -730,7 +730,7 @@
           "columnIds": [
             "6c3c2f2b-61c5-4417-b8e3-6090ff2c763f"
           ],
-          "x": 1118.70471796875,
+          "x": 1141.82288203125,
           "y": 966.0839,
           "direction": "right"
         },
@@ -747,7 +747,7 @@
           "columnIds": [
             "5a5d5cc4-903a-4b4a-bd1a-9aa822d6ff4f"
           ],
-          "x": 901.671630859375,
+          "x": 913.230712890625,
           "y": 781.5,
           "direction": "bottom"
         },
@@ -756,7 +756,7 @@
           "columnIds": [
             "37667b1b-4631-4174-9820-a1746e75284d"
           ],
-          "x": 902.296758984375,
+          "x": 913.855841015625,
           "y": 880.3339,
           "direction": "top"
         },
@@ -782,7 +782,7 @@
           "columnIds": [
             "6b9bdc60-b5ca-4adb-853b-83327096fe33"
           ],
-          "x": 1094.34326171875,
+          "x": 1117.46142578125,
           "y": 675.25,
           "direction": "right"
         },

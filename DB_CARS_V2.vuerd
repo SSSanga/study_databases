@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -400,
-    "scrollLeft": -298,
-    "zoomLevel": 0.8,
+    "scrollTop": -267,
+    "scrollLeft": -289,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -55,7 +55,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -97,7 +97,7 @@
           "active": false,
           "left": 1010.698,
           "top": 350.3972,
-          "zIndex": 16,
+          "zIndex": 43,
           "widthName": 66.76513671875,
           "widthComment": 60,
           "color": "#E91ECC"
@@ -118,7 +118,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -182,8 +182,8 @@
         "ui": {
           "active": false,
           "left": 348.1433,
-          "top": 545.9532,
-          "zIndex": 30,
+          "top": 544.7032,
+          "zIndex": 35,
           "widthName": 74.236328125,
           "widthComment": 70.61181640625,
           "color": "#F44336"
@@ -204,7 +204,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -246,7 +246,7 @@
           "active": false,
           "left": 610.5034,
           "top": 760.6745,
-          "zIndex": 22,
+          "zIndex": 39,
           "widthName": 95.18359375,
           "widthComment": 70.61181640625,
           "color": "#03A9F4"
@@ -267,7 +267,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -332,7 +332,7 @@
           "active": false,
           "left": 612.4487,
           "top": 979.1761,
-          "zIndex": 26,
+          "zIndex": 41,
           "widthName": 80.7490234375,
           "widthComment": 70.61181640625,
           "color": "#673AB7"
@@ -493,7 +493,7 @@
             "6bf72446-b552-4042-b373-a8310e49ad5e"
           ],
           "x": 788.17015546875,
-          "y": 611.2032,
+          "y": 609.9532,
           "direction": "right"
         },
         "end": {
@@ -580,7 +580,7 @@
             "038271ed-0758-4564-a85c-6e3d3fc3317b"
           ],
           "x": 568.156727734375,
-          "y": 676.4532,
+          "y": 675.2032,
           "direction": "bottom"
         },
         "constraintName": "fk_car_years_to_car_name",
