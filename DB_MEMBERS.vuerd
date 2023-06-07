@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -206,
-    "scrollLeft": -264.66666666666663,
-    "zoomLevel": 1,
+    "scrollTop": -234,
+    "scrollLeft": -264,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -189,7 +189,7 @@
           "active": false,
           "left": 679.7778888888887,
           "top": 390.6669666666664,
-          "zIndex": 68,
+          "zIndex": 7,
           "widthName": 90.8291015625,
           "widthComment": 60,
           "color": "#33136D"
@@ -252,7 +252,7 @@
           "active": false,
           "left": 1190.9168888888883,
           "top": 321.8337666666665,
-          "zIndex": 32,
+          "zIndex": 4,
           "widthName": 85.07177734375,
           "widthComment": 61.22998046875,
           "color": "#00FFD0"
@@ -336,9 +336,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 973.0005888888885,
-          "top": 173.44426666666672,
-          "zIndex": 58,
+          "left": 929.0006,
+          "top": 152.4443,
+          "zIndex": 13,
           "widthName": 60,
           "widthComment": 74.22998046875,
           "color": "#F44336"
@@ -399,9 +399,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1074.8618,
-          "top": 596.9457,
-          "zIndex": 70,
+          "left": 1193.8618,
+          "top": 608.9457,
+          "zIndex": 14,
           "widthName": 88.6962890625,
           "widthComment": 60,
           "color": "#03A9F4"
@@ -462,9 +462,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 680.1115,
-          "top": 762.7777,
-          "zIndex": 72,
+          "left": 426.1115,
+          "top": 692.7777,
+          "zIndex": 12,
           "widthName": 60,
           "widthComment": 60,
           "color": "#E91EC3"
@@ -524,10 +524,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 179.1122,
-          "top": 782.7773,
-          "zIndex": 74,
+          "active": true,
+          "left": 200.4454,
+          "top": 541.7772,
+          "zIndex": 16,
           "widthName": 64.84814453125,
           "widthComment": 60,
           "color": "#9E9E9E"
@@ -546,7 +546,7 @@
           "active": false,
           "left": 660.1111111111106,
           "top": 233.33333333333331,
-          "zIndex": 5,
+          "zIndex": 2,
           "width": 145,
           "height": 100
         },
@@ -558,7 +558,7 @@
           "active": false,
           "left": 1424.8888888888887,
           "top": 448.22222222222155,
-          "zIndex": 4,
+          "zIndex": 1,
           "width": 128,
           "height": 100
         },
@@ -570,7 +570,7 @@
           "active": false,
           "left": 897.9999999999998,
           "top": 604.5555555555558,
-          "zIndex": 7,
+          "zIndex": 3,
           "width": 127,
           "height": 100
         },
@@ -580,9 +580,9 @@
         "value": "VARCHAR에는 글자수SIZE를 지정해준다. (50), 글자수 많으면 (500)\n\nNULL은 항상 NOT NULL로 지정해준다\n",
         "ui": {
           "active": false,
-          "left": 1130.6666666666665,
-          "top": 737,
-          "zIndex": 43,
+          "left": 1589.5555555555547,
+          "top": 439.2222222222223,
+          "zIndex": 15,
           "width": 226,
           "height": 100
         },
@@ -636,8 +636,8 @@
           "columnIds": [
             "6895a8ac-4c17-443a-a695-63a005472b19"
           ],
-          "x": 973.0005888888885,
-          "y": 238.69426666666672,
+          "x": 929.0006,
+          "y": 217.6943,
           "direction": "left"
         },
         "constraintName": "fk_mem_inform_to_login",
@@ -653,8 +653,8 @@
           "columnIds": [
             "932a3d15-00f0-4119-9295-7311a5b06e93"
           ],
-          "x": 1293.7993,
-          "y": 596.9457,
+          "x": 1412.7993,
+          "y": 608.9457,
           "direction": "top"
         },
         "end": {
@@ -679,9 +679,9 @@
           "columnIds": [
             "01c90b1e-b247-4324-a943-95d514fab992"
           ],
-          "x": 883.5099375,
-          "y": 762.7777,
-          "direction": "top"
+          "x": 832.908375,
+          "y": 747.7777,
+          "direction": "right"
         },
         "end": {
           "tableId": "98810f34-7bbd-4f98-9d9f-d96b7b1e10ce",
@@ -705,8 +705,8 @@
           "columnIds": [
             "ede4d7a3-3882-495e-9984-b07bce18fe9b"
           ],
-          "x": 600.3690359375,
-          "y": 837.7773,
+          "x": 621.7022359375001,
+          "y": 596.7772,
           "direction": "right"
         },
         "end": {
