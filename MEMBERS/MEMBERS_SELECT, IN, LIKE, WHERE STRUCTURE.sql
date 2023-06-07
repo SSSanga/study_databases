@@ -1,0 +1,36 @@
+-- SELECT column1, column2, ...
+-- FROM table_name
+-- WHERE condition;
+-- ORDER BY column1, column2, ... ASC|DESC;<정렬함. 
+
+
+
+SELECT*
+FROM members
+WHERE  GENDER_CODE_ID NOT LIKE 'G-01';
+-- WHERE GENDER_CODE_ID = 'G-01';
+
+SELECT* FROM members
+WHERE NAME !='홍길동';
+
+SELECT *
+FROM MEMBERS
+WHERE AGE NOT IN (32, 28)
+ORDER BY ADDRESS_CODE_ID DESC;
+
+
+SELECT *
+FROM members
+WHERE AGE BETWEEN 25 AND 35
+ORDER BY GENDER_CODE_ID, AGE DESC; -- 먼저 GENDER로 정렬 되고 나서 AGE의 DESC으로 배열함. 
+
+SELECT NAME, AGE
+FROM members
+WHERE AGE BETWEEN 25 AND 35
+-- ORDER BY AGE DESC; -- ASCENDING 오름차순 -- DESCENDING 내림차순
+-- GENDER 끼리 묶어서 나이 비교
+
+
+
+
+
