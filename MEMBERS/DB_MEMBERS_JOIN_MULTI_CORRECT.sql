@@ -1,0 +1,13 @@
+-- 회원정보수정??????
+
+SELECT T_MEMS.*, T_MEMS_LOGIN.EMAIL, T_GENDERS.GENDER
+FROM (members AS T_MEMS
+	INNER JOIN members_login AS T_MEMS_LOGIN
+    ON T_MEMS.MEMBERS_ID = T_MEMS_LOGIN.MEMBERS_ID AND T_MEMS.MEMBERS_ID = 'M-02') 
+	INNER JOIN gender_code AS T_GENDERS
+    ON T_MEMS.GENDER_CODE_ID = T_GENDERS.GENDER_CODE_ID ;  
+	-- JOIN의 조건은 ON, FROM의 조건은 WHERE, GROUP BY의 조건은 HAVING 
+    -- = 결국 ON, HAVING은 WHERE와 같은 역할을 함.
+    -- UNION이요??
+	-- JOIN은 COLUMN들이 연결되고 UNION은 레코드들이 늘어남(주로 LEFT JOIN, RIGHT JOIN때 필요함.). 
+    
