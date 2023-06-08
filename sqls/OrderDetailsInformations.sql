@@ -47,4 +47,14 @@ FROM Customers AS t_CUST
     ON t_CUST.CustomerID = t_CUST_ORD.CustomerID
       ORDER BY t_CUST.CustomerID ;
 
+-- ==RESULTS==
+-- Number of Records: 518
+-- CustomerID	CustomerName	OrderID	ProductID	ProductName	Price	Quantity
+-- 2	Ana Trujillo Emparedados y helados	10308	69	Gudbrandsdalsost	36	1
+-- 2	Ana Trujillo Emparedados y helados	10308	70	Outback Lager	15	5
+-- 3	Antonio Moreno Taquería	10365	11	Queso Cabrales	21	24
+-- 4	Around the Horn	10355	24	Guaraná Fantástica	4.5	25
+-- 4	Around the Horn	10355	57	Ravioli Angelo	19.5	25
+-- .................
+
 
