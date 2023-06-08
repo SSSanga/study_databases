@@ -44,6 +44,7 @@ FROM Customers AS t_CUST
 	                            INNER JOIN OrderDetails AS t_ORD_DT
                                     ON t_PRD.ProductID =t_ORD_DT.ProductID)AS t_PRD_INF
                  ON t_ORD_INF.OrderID=t_PRD_INF.OrderID) AS t_CUST_ORD
-    ON t_CUST.CustomerID = t_CUST_ORD.CustomerID;
+    ON t_CUST.CustomerID = t_CUST_ORD.CustomerID
+      ORDER BY t_CUST.CustomerID ;
 
 
