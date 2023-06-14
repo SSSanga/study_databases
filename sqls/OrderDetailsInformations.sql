@@ -56,5 +56,6 @@ FROM Customers AS t_CUST
 -- 4	Around the Horn	10355	24	Guaraná Fantástica	4.5	25
 -- 4	Around the Horn	10355	57	Ravioli Angelo	19.5	25
 -- .................
+-- THINK?? PRODUCT ID를 GROUP BY 해버리면??
 
 

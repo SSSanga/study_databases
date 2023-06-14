@@ -1,0 +1,4 @@
+(SELECT t_PRD.ProductID AS PD_ID, t_PRD.ProductName, t_ORD_DT.OrderID, t_ORD_DT.Quantity, t_PRD.Price
+FROM Products AS t_PRD
+	INNER JOIN OrderDetails AS t_ORD_DT
+    ON t_PRD.ProductID =t_ORD_DT.ProductID)AS t_PRD_INF
