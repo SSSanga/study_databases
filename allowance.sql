@@ -1,0 +1,3 @@
+CREATE USER 'yojulab'@'%' IDENTIFIED BY '!yojulab*';
+GRANT ALL PRIVILEGES ON *.* TO 'yojulab'@'%' WITH GRANT OPTION;
+PRIVILEGES;
